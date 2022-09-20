@@ -11,8 +11,11 @@ As a small business owner I WANT to be able to write and save notes SO THAT I ca
 This application uses the following:
 1. Node.js
 2. Express.js
-3. 
+3. NPM 
+4. Inquirer.js
 
+## CONTRIBUTOR
+Amal Hirsi
 
 https://github.com/AmalHirsi/11-Note-Taker
 
