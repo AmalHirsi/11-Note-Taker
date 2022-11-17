@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "safe-buffer": "^5.2.1"
+    "safe-buffer": "^5.2.1",
+    "uniqid": "^5.4.0"
   }
 }
