@@ -13,7 +13,7 @@ This application uses the following:
 3. NPM 
 4. Inquirer.js
 
-## CONTRIBUTION
+## CONTRIBUTIONnp
 No contribution required
 
 ## CONTACT

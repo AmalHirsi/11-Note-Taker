@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { uniqid} = require('uniqid');
+const { uniqid } = require('uniqid');
 const db = require('../../db/db.json')
 
 
