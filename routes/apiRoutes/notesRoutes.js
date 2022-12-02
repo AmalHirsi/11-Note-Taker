@@ -1,12 +1,16 @@
 const router = require('express').Router();
-const { uniqid } = require('uniqid');
+const  uniqid  = require('uniqid');
 const db = require('../../db/db.json')
+const fs=require('fs');
 
 
 
 
-router.get('/', (req, res) =>
-readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
+router.get('/notes', (req, res) =>
+fs.readFile('./db/db.json',(err, data) => {
+  if (err) throw err;
+  res.json(JSON.parse(data))
+})
 );
 
 
