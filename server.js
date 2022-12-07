@@ -14,5 +14,5 @@ app.use('/', htmlRoute);
 
 
 app.listen(PORT, () => {
-    console.log('Listening on PORT ${PORT}.');
+    console.log('Listening on port ${PORT}.');
 });
